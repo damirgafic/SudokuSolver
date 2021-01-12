@@ -24,45 +24,6 @@ def isValid(grid, i, j, e):
             return True
     return False
 
-
-def displayPuzzle(input):
-    for i in range(0, 3):
-        for j in range(0, 3):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(0, 3):
-        for j in range(3, 6):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(0, 3):
-        for j in range(6, 9):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(3, 6):
-        for j in range(0, 3):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(3, 6):
-        for j in range(3, 6):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(3, 6):
-        for j in range(6, 9):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(6, 9):
-        for j in range(0, 3):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(6, 9):
-        for j in range(3, 6):
-            print(input[i][j], end=" ")
-    print('')
-    for i in range(6, 9):
-        for j in range(6, 9):
-            print(input[i][j], end=" ")
-
-
 def displayPuzz(input):
     for i in range(0, 9):
         for j in range(0, 9):
